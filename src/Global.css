@@ -11,3 +11,17 @@
 body {
   background-color: #000;
 }
+
+#light-left {
+  position: fixed;
+  left: -30%;
+  bottom: -100%;
+  z-index: -1;
+}
+
+#light-right {
+  position: fixed;
+  right: -42%;
+  bottom: 30%;
+  z-index: -1;
+}

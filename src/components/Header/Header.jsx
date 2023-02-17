@@ -1,31 +1,45 @@
 import { Button } from "../../designs/Button.style"
+import { TextHeader } from "../../designs/Text.style"
 import { Logo } from "../Logo/Logo"
 import './style.css'
 
 export function Header() {
   return (
     <header id="container">
-      <Logo/>
+      <Logo />
+      
       <ul className="nav-links">
         <li>
-          <a href="#">Home</a>
+          <TextHeader>
+            Home
+          </TextHeader>
         </li>
         <li>
-          <a href="#">Menu</a>
+          <TextHeader>
+            Menu
+          </TextHeader>
         </li>
         <li>
-          <a href="#">Recompensas</a>
+          <TextHeader>
+            Recompensas
+          </TextHeader>
         </li>
         <li>
-          <a href="#">Gift Cards</a>
+          <TextHeader>
+            Gift Cards
+          </TextHeader>
         </li>
         <li>
-          <a href="#">Lojas</a>
+          <TextHeader>
+            Lojas
+          </TextHeader>
         </li>
       </ul>
+
       <Button>
         PEGAR MEU CAFÉ
       </Button>
+
     </header>
   )
 }
