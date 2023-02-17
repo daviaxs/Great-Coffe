@@ -1,11 +1,11 @@
-import { Button } from "../../designs/Button.style";
-import LogoDesktop from '../../assets/logo-desktop.svg'
+import { Button } from "../../designs/Button.style"
+import { Logo } from "../Logo/Logo"
 import './style.css'
 
 export function Header() {
   return (
     <header id="container">
-      <img className="logo" src={LogoDesktop} alt="Logo" />
+      <Logo/>
       <ul className="nav-links">
         <li>
           <a href="#">Home</a>
@@ -24,7 +24,7 @@ export function Header() {
         </li>
       </ul>
       <Button>
-      PEGAR MEU CAFÉ
+        PEGAR MEU CAFÉ
       </Button>
     </header>
   )
