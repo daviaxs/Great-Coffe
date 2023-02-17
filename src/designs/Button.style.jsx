@@ -7,6 +7,18 @@ export const Button = styled.button`
   padding: 11px 38px;
   gap: 10px;
 
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+
+  background-color: rgba(130, 87, 229, 0);
+  color: white;
   border: 1px solid #8257E5;
   border-radius: 6px;
+
+  &:hover {
+    transition: .2s;
+    cursor: pointer;
+    background-color: #8257e51f;
+  }
 `
