@@ -39,6 +39,20 @@ body {
 
 /* Global */
 
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+body .loading {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background-color: #000;
 }
@@ -66,14 +80,14 @@ body {
 
 /* LUZES BG */
 
-#light-left {
+.light-left {
   position: fixed;
   left: -100%;
   bottom: -1600px;
   z-index: -1;
 }
 
-#light-right {
+.light-right {
   position: fixed;
   right: -100%;
   bottom: -100px;
