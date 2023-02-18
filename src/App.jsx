@@ -3,8 +3,8 @@ import Light from '../src/assets/light.png';
 import CoffeeImg from '../src/assets/imgCoffee.png';
 import GreatCoder from '../src/assets/great-coder.png';
 import { TextMain } from "./designs/Text.style";
-import './Global.css'
 import { Coffee } from "./designs/Coffee.style";
+import './Global.css'
 
 export function App() {
 

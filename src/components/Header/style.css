@@ -25,6 +25,7 @@
 ul li {
   list-style: none;
   text-align: center;
+  transition: .35s ease-in-out;
 }
 
 ul li a {
@@ -35,11 +36,11 @@ ul li a {
 
 ul li:hover {
   transform: scale(1.1);
-  transition: .4s;
+  transition: .35s ease-in-out;
 }
 
 ul:hover > :not(:hover) {
-  transition: .4s;
+  transition: .35s ease-in-out;
   opacity: .4;
   transform: scale(0.9);
 }

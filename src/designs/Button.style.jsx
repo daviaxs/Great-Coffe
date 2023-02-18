@@ -19,6 +19,10 @@ export const Button = styled.button`
   &:hover {
     transition: .4s;
     cursor: pointer;
-    background-color: #8257e53d;
+    background-color: #8257e5;
+  }
+
+  &:focus {
+    outline: none;
   }
 `
