@@ -11,5 +11,10 @@ export const TextHeader = styled.a`
 `
 
 export const TextMain = styled.h1`
-  
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 109px;
+  letter-spacing: -0.03em;
+  color: white;
+  text-align: center;
 `

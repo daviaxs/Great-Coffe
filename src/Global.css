@@ -12,16 +12,39 @@ body {
   background-color: #000;
 }
 
+.textMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.textMainSecundary {
+  margin-top: -20px;
+}
+
+.textMainSecundary img {
+  width: 550px;
+}
+
+
+#coffeeImg img {
+  width: 900px;
+}
+
+
+/* LUZES BG */
+
 #light-left {
   position: fixed;
-  left: -30%;
-  bottom: -100%;
+  left: -100%;
+  bottom: -1600px;
   z-index: -1;
 }
 
 #light-right {
   position: fixed;
-  right: -42%;
-  bottom: 30%;
+  right: -100%;
+  bottom: -100px;
   z-index: -1;
 }

@@ -19,13 +19,16 @@
 .nav-links {
   display: flex;
   gap: 33px;
+  margin-left: 10%;
 }
 
 ul li {
   list-style: none;
+  text-align: center;
 }
 
 ul li a {
+  text-align: center;
   text-decoration: none;
   color: white;
 }
