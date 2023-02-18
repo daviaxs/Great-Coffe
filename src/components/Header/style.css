@@ -32,3 +32,14 @@ ul li a {
   text-decoration: none;
   color: white;
 }
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+ul:hover > :not(:hover) {
+  transition: .5s;
+  opacity: .4;
+  transform: scale(0.9);
+}
