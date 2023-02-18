@@ -15,6 +15,8 @@ export const Button = styled.button`
   color: white;
   border: 1px solid #8257E5;
   border-radius: 6px;
+  transition: .4s;
+
 
   &:hover {
     transition: .4s;
