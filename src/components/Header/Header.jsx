@@ -1,5 +1,5 @@
 import { Button } from "../../designs/Button.style"
-import { TextHeader } from "../../designs/Text.style"
+import { TextHeader } from "../../designs/Texts.style"
 import { Logo } from "../Logo/Logo"
 import './style.css'
 

@@ -14,7 +14,6 @@ html,
 body {
   max-width: 100%;
   overflow-x: auto;
-  scroll-behavior: smooth;
 }
 
 
@@ -39,57 +38,40 @@ body {
 
 /* Global */
 
-.loading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-body .loading {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
 body {
-  background-color: #000;
+  background-color: black;
+  background-image: url(assets/bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
 }
 
-.textMain {
+main {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  margin: 40px 0;
 }
 
-.textMainSecundary {
+.textImg {
   margin-top: -20px;
 }
 
-.textMainSecundary img {
-  width: 550px;
+.textImg {
+  width: 45%;
 }
 
 
 #coffeeImg img {
-  width: 900px;
+  width: 65%;
 }
 
 
 /* LUZES BG */
 
-.light-left {
+.light-bottom {
   position: fixed;
-  left: -100%;
-  bottom: -1600px;
-  z-index: -1;
-}
-
-.light-right {
-  position: fixed;
-  right: -100%;
-  bottom: -100px;
+  left: -50%;
+  bottom: -1660px;
   z-index: -1;
 }
